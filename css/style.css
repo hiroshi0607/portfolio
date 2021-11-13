@@ -1,4 +1,4 @@
-ul { 
+.ul-class { 
     display: flex;
     justify-content: center;
     list-style: none;
@@ -8,20 +8,28 @@ ul {
     font-size: 25px;
     font-weight: bold;
 }
+main{
+    background-color: #f3f3f3;
+    font-family: "Font Awesome 5 Free";
+}
 #skill{
     margin: 200px;
     text-align: center;
 }
 #profile{
     margin: 200px;
-    text-align: center;
+    /* text-align: center; */
 }
 #contact{
-    margin: 200px;
+    /* margin: 200px; */
     text-align: center;
 }
+#contact h2{
+    margin: 0;
+    padding: 0 0 20px;
+}
 #works{
-    margin: 200px;
+    margin: 200px 10% 10%;
     text-align: center;
 }
 h1{
@@ -40,24 +48,47 @@ a {
 li{
     letter-spacing: -0.01em;
 }
-a:link, a:visited, a:hover, a:active {
+.contents a:link, a:visited, a:hover, a:active {
     color:black;
     text-decoration: none;
   }
+.contents p{
+    color: black;
+}
 .box{
-    padding: 10% 0 200px;
+    padding: 20% 0 200px;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 10px;
+}
+footer ul{
+    padding: 20px 0 0 0;
 }
 .footer-p{
     margin: 30px 0 0;
-    
+    padding: 0 0 10px;
 }
 .footer-li{
+    font-size: 10px;
     padding: 0 20px;
+    
+}
+.footer-icon{
+    color: #ffffff;
+}
+.footer-icon a:link, a:visited, a:hover, a:active {
+    color:#ffffff;
+    text-decoration: none;
+  }
+.mini-contents{
+    margin-left: 20px;
+}
+.sub-contents{
+    margin: 30px 0;
+    display: flex;
 }
 .star5_rating{
     position: relative;
@@ -93,3 +124,83 @@ footer{
 .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
 .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
 .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
+
+.skill-contents{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+.skill-contents h3{
+    font-size: 26px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.skill-contents i{
+    margin-right: 10px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-box .skill-contents{
+    width: 45%
+}
+.list{
+    margin: 0 10px 0 10px;
+}
+.pf-li{
+    display: flex;
+}
+.pf-ul{
+    list-style: none;
+}
+#pf1{
+    margin: 0 0 10%;
+    background-color: #ffffff;
+    padding: 20px 20%;
+}
+#pf2{
+    margin: 0 0 10%;
+    background-color: #ffffff;
+    padding: 20px 20%;
+}
+#pf3{
+    margin: 0 0 10%;
+    background-color: #ffffff;
+    padding: 20px 20%;
+}
+#pf4{
+    margin: 0 0 10%;
+    background-color: #ffffff;
+    padding: 20px 20%;
+}
+#pf5{
+    margin: 0 0 10%;
+    background-color: #ffffff;
+    padding: 20px 20%;
+}
+.pf-h2{
+    text-align: center;
+}
+.pf-li{
+    border-bottom: solid #ccc 1px;
+}
+.p-right{
+    margin: 16px 0;
+    width: 80%;
+}
+.p-left{
+    width: 20%;
+    margin: 16px 0;
+}
+.work-list{
+    margin: 30px 0;
+}
+.contact-div{
+    margin: 30px 0 0;
+}
+.pf-a a:link, a:visited, a:hover, a:active {
+        color:blue;
+        text-decoration: none;
+      }
