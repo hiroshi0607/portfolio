@@ -13,11 +13,11 @@ main{
     font-family: "Font Awesome 5 Free";
 }
 #skill{
-    margin: 200px;
+    margin: 5%;
     text-align: center;
 }
 #profile{
-    margin: 200px;
+    margin: 5%;
     /* text-align: center; */
 }
 #contact{
@@ -29,7 +29,7 @@ main{
     padding: 0 0 20px;
 }
 #works{
-    margin: 200px 10% 10%;
+    margin: 5% 5% 10%;
     text-align: center;
 }
 h1{
@@ -47,6 +47,9 @@ a {
 }
 li{
     letter-spacing: -0.01em;
+}
+.list{
+    border: 1px solid rgba(0,0,0,.125);
 }
 .contents a:link, a:visited, a:hover, a:active {
     color:black;
@@ -204,3 +207,6 @@ footer ul{
         color:blue;
         text-decoration: none;
       }
+.mini-p{
+    padding: 2% 0
+}
