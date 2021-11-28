@@ -8,6 +8,16 @@
     font-size: 25px;
     font-weight: bold;
 }
+.ul-class2 { 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* width: 100%; */
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
 main{
     background-color: #f3f3f3;
     font-family: "Font Awesome 5 Free";
@@ -205,7 +215,7 @@ footer ul{
     margin: 30px 0 0;
 }
 .pf-a a:link, a:visited, a:hover, a:active {
-        color:blue;
+        /* color:blue; */
         text-decoration: none;
       }
 .mini-p{
@@ -271,5 +281,43 @@ footer ul{
     }
     .box{
         padding: 20% 0 50px;
+    }
+    .p-left{
+        width: 35%;
+        margin: 16px 0
+    }
+    .p-right{
+        width: 65%;
+        margin: 16px 0;
+        word-break: break-word;
+    }
+    .pf-ul{
+        padding: 0;
+    }
+    #pf1{
+        margin: 0 0 10%;
+        background-color: #ffffff;
+        padding: 5%;
+    }
+    #pf2{
+        margin: 0 0 10%;
+        background-color: #ffffff;
+        padding: 5%;
+    }
+    #pf3{
+        margin: 0 0 10%;
+        background-color: #ffffff;
+        padding: 5%;
+    }
+    #pf4{
+        margin: 0 0 10%;
+        background-color: #ffffff;
+        padding: 5%;
+    }
+    .sp-main{
+        background-color: #ffffff;
+    }
+    .evidence{
+        margin: 0 0 100px;
     }
 }   
